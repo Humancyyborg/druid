@@ -1,0 +1,638 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		6E95ADCC29A6CB370062B0B9 /* MobileNetV2.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = 6E95ADCB29A6CB370062B0B9 /* MobileNetV2.mlmodel */; };
+		6E95ADCF29A6D3820062B0B9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6E95ADCE29A6D3820062B0B9 /* LaunchScreen.storyboard */; };
+		6E95ADD229A6D5870062B0B9 /* DRUID.png in Resources */ = {isa = PBXBuildFile; fileRef = 6E95ADD129A6D5870062B0B9 /* DRUID.png */; };
+		6E95ADD429A6D7130062B0B9 /* OnboardingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E95ADD329A6D7130062B0B9 /* OnboardingView.swift */; };
+		6E95ADD629A6DB240062B0B9 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E95ADD529A6DB240062B0B9 /* HomeView.swift */; };
+		6E95ADD829A6E0010062B0B9 /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E95ADD729A6E0010062B0B9 /* MainView.swift */; };
+		6EAAA4732989E2DD00452605 /* Detector.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6EAAA4722989E2DD00452605 /* Detector.swift */; };
+		6EAAA4752989E34A00452605 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6EAAA4742989E34A00452605 /* ViewController.swift */; };
+		6EFCC4FF2988567B00CC5A2D /* druidApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6EFCC4FE2988567B00CC5A2D /* druidApp.swift */; };
+		6EFCC5012988567B00CC5A2D /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6EFCC5002988567B00CC5A2D /* ContentView.swift */; };
+		6EFCC5032988567E00CC5A2D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6EFCC5022988567E00CC5A2D /* Assets.xcassets */; };
+		6EFCC5062988567E00CC5A2D /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6EFCC5052988567E00CC5A2D /* Preview Assets.xcassets */; };
+		6EFCC5102988567F00CC5A2D /* druidTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6EFCC50F2988567F00CC5A2D /* druidTests.swift */; };
+		6EFCC51A2988567F00CC5A2D /* druidUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6EFCC5192988567F00CC5A2D /* druidUITests.swift */; };
+		6EFCC51C2988567F00CC5A2D /* druidUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6EFCC51B2988567F00CC5A2D /* druidUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		6EFCC50C2988567F00CC5A2D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6EFCC4F32988567B00CC5A2D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6EFCC4FA2988567B00CC5A2D;
+			remoteInfo = druid;
+		};
+		6EFCC5162988567F00CC5A2D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6EFCC4F32988567B00CC5A2D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6EFCC4FA2988567B00CC5A2D;
+			remoteInfo = druid;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		6E95ADCB29A6CB370062B0B9 /* MobileNetV2.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = MobileNetV2.mlmodel; sourceTree = "<group>"; };
+		6E95ADCE29A6D3820062B0B9 /* LaunchScreen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = LaunchScreen.storyboard; sourceTree = "<group>"; };
+		6E95ADD129A6D5870062B0B9 /* DRUID.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = DRUID.png; sourceTree = "<group>"; };
+		6E95ADD329A6D7130062B0B9 /* OnboardingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingView.swift; sourceTree = "<group>"; };
+		6E95ADD529A6DB240062B0B9 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		6E95ADD729A6E0010062B0B9 /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
+		6EAAA4722989E2DD00452605 /* Detector.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Detector.swift; sourceTree = "<group>"; };
+		6EAAA4742989E34A00452605 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		6EFCC4FB2988567B00CC5A2D /* druid.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = druid.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		6EFCC4FE2988567B00CC5A2D /* druidApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = druidApp.swift; sourceTree = "<group>"; };
+		6EFCC5002988567B00CC5A2D /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		6EFCC5022988567E00CC5A2D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		6EFCC5052988567E00CC5A2D /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		6EFCC50B2988567F00CC5A2D /* druidTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = druidTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		6EFCC50F2988567F00CC5A2D /* druidTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = druidTests.swift; sourceTree = "<group>"; };
+		6EFCC5152988567F00CC5A2D /* druidUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = druidUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		6EFCC5192988567F00CC5A2D /* druidUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = druidUITests.swift; sourceTree = "<group>"; };
+		6EFCC51B2988567F00CC5A2D /* druidUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = druidUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		6EFCC4F82988567B00CC5A2D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6EFCC5082988567F00CC5A2D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6EFCC5122988567F00CC5A2D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		6E95ADCD29A6D32B0062B0B9 /* Storyboards */ = {
+			isa = PBXGroup;
+			children = (
+				6E95ADCE29A6D3820062B0B9 /* LaunchScreen.storyboard */,
+			);
+			path = Storyboards;
+			sourceTree = "<group>";
+		};
+		6E95ADD029A6D56C0062B0B9 /* images */ = {
+			isa = PBXGroup;
+			children = (
+				6E95ADD129A6D5870062B0B9 /* DRUID.png */,
+			);
+			path = images;
+			sourceTree = "<group>";
+		};
+		6EFCC4F22988567B00CC5A2D = {
+			isa = PBXGroup;
+			children = (
+				6EFCC4FD2988567B00CC5A2D /* druid */,
+				6EFCC50E2988567F00CC5A2D /* druidTests */,
+				6EFCC5182988567F00CC5A2D /* druidUITests */,
+				6EFCC4FC2988567B00CC5A2D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		6EFCC4FC2988567B00CC5A2D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				6EFCC4FB2988567B00CC5A2D /* druid.app */,
+				6EFCC50B2988567F00CC5A2D /* druidTests.xctest */,
+				6EFCC5152988567F00CC5A2D /* druidUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		6EFCC4FD2988567B00CC5A2D /* druid */ = {
+			isa = PBXGroup;
+			children = (
+				6E95ADD029A6D56C0062B0B9 /* images */,
+				6EFCC4FE2988567B00CC5A2D /* druidApp.swift */,
+				6EAAA4722989E2DD00452605 /* Detector.swift */,
+				6EFCC5002988567B00CC5A2D /* ContentView.swift */,
+				6EAAA4742989E34A00452605 /* ViewController.swift */,
+				6E95ADD329A6D7130062B0B9 /* OnboardingView.swift */,
+				6E95ADD529A6DB240062B0B9 /* HomeView.swift */,
+				6E95ADD729A6E0010062B0B9 /* MainView.swift */,
+				6E95ADCB29A6CB370062B0B9 /* MobileNetV2.mlmodel */,
+				6EFCC5022988567E00CC5A2D /* Assets.xcassets */,
+				6E95ADCD29A6D32B0062B0B9 /* Storyboards */,
+				6EFCC5042988567E00CC5A2D /* Preview Content */,
+			);
+			path = druid;
+			sourceTree = "<group>";
+		};
+		6EFCC5042988567E00CC5A2D /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				6EFCC5052988567E00CC5A2D /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		6EFCC50E2988567F00CC5A2D /* druidTests */ = {
+			isa = PBXGroup;
+			children = (
+				6EFCC50F2988567F00CC5A2D /* druidTests.swift */,
+			);
+			path = druidTests;
+			sourceTree = "<group>";
+		};
+		6EFCC5182988567F00CC5A2D /* druidUITests */ = {
+			isa = PBXGroup;
+			children = (
+				6EFCC5192988567F00CC5A2D /* druidUITests.swift */,
+				6EFCC51B2988567F00CC5A2D /* druidUITestsLaunchTests.swift */,
+			);
+			path = druidUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		6EFCC4FA2988567B00CC5A2D /* druid */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6EFCC51F2988567F00CC5A2D /* Build configuration list for PBXNativeTarget "druid" */;
+			buildPhases = (
+				6EFCC4F72988567B00CC5A2D /* Sources */,
+				6EFCC4F82988567B00CC5A2D /* Frameworks */,
+				6EFCC4F92988567B00CC5A2D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = druid;
+			productName = druid;
+			productReference = 6EFCC4FB2988567B00CC5A2D /* druid.app */;
+			productType = "com.apple.product-type.application";
+		};
+		6EFCC50A2988567F00CC5A2D /* druidTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6EFCC5222988567F00CC5A2D /* Build configuration list for PBXNativeTarget "druidTests" */;
+			buildPhases = (
+				6EFCC5072988567F00CC5A2D /* Sources */,
+				6EFCC5082988567F00CC5A2D /* Frameworks */,
+				6EFCC5092988567F00CC5A2D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6EFCC50D2988567F00CC5A2D /* PBXTargetDependency */,
+			);
+			name = druidTests;
+			productName = druidTests;
+			productReference = 6EFCC50B2988567F00CC5A2D /* druidTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		6EFCC5142988567F00CC5A2D /* druidUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6EFCC5252988567F00CC5A2D /* Build configuration list for PBXNativeTarget "druidUITests" */;
+			buildPhases = (
+				6EFCC5112988567F00CC5A2D /* Sources */,
+				6EFCC5122988567F00CC5A2D /* Frameworks */,
+				6EFCC5132988567F00CC5A2D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6EFCC5172988567F00CC5A2D /* PBXTargetDependency */,
+			);
+			name = druidUITests;
+			productName = druidUITests;
+			productReference = 6EFCC5152988567F00CC5A2D /* druidUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		6EFCC4F32988567B00CC5A2D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1400;
+				LastUpgradeCheck = 1400;
+				TargetAttributes = {
+					6EFCC4FA2988567B00CC5A2D = {
+						CreatedOnToolsVersion = 14.0.1;
+					};
+					6EFCC50A2988567F00CC5A2D = {
+						CreatedOnToolsVersion = 14.0.1;
+						TestTargetID = 6EFCC4FA2988567B00CC5A2D;
+					};
+					6EFCC5142988567F00CC5A2D = {
+						CreatedOnToolsVersion = 14.0.1;
+						TestTargetID = 6EFCC4FA2988567B00CC5A2D;
+					};
+				};
+			};
+			buildConfigurationList = 6EFCC4F62988567B00CC5A2D /* Build configuration list for PBXProject "druid" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 6EFCC4F22988567B00CC5A2D;
+			productRefGroup = 6EFCC4FC2988567B00CC5A2D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				6EFCC4FA2988567B00CC5A2D /* druid */,
+				6EFCC50A2988567F00CC5A2D /* druidTests */,
+				6EFCC5142988567F00CC5A2D /* druidUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		6EFCC4F92988567B00CC5A2D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6E95ADD229A6D5870062B0B9 /* DRUID.png in Resources */,
+				6E95ADCF29A6D3820062B0B9 /* LaunchScreen.storyboard in Resources */,
+				6EFCC5062988567E00CC5A2D /* Preview Assets.xcassets in Resources */,
+				6EFCC5032988567E00CC5A2D /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6EFCC5092988567F00CC5A2D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6EFCC5132988567F00CC5A2D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		6EFCC4F72988567B00CC5A2D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6E95ADCC29A6CB370062B0B9 /* MobileNetV2.mlmodel in Sources */,
+				6E95ADD829A6E0010062B0B9 /* MainView.swift in Sources */,
+				6E95ADD629A6DB240062B0B9 /* HomeView.swift in Sources */,
+				6EFCC5012988567B00CC5A2D /* ContentView.swift in Sources */,
+				6EFCC4FF2988567B00CC5A2D /* druidApp.swift in Sources */,
+				6E95ADD429A6D7130062B0B9 /* OnboardingView.swift in Sources */,
+				6EAAA4752989E34A00452605 /* ViewController.swift in Sources */,
+				6EAAA4732989E2DD00452605 /* Detector.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6EFCC5072988567F00CC5A2D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6EFCC5102988567F00CC5A2D /* druidTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6EFCC5112988567F00CC5A2D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6EFCC51A2988567F00CC5A2D /* druidUITests.swift in Sources */,
+				6EFCC51C2988567F00CC5A2D /* druidUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		6EFCC50D2988567F00CC5A2D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 6EFCC4FA2988567B00CC5A2D /* druid */;
+			targetProxy = 6EFCC50C2988567F00CC5A2D /* PBXContainerItemProxy */;
+		};
+		6EFCC5172988567F00CC5A2D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 6EFCC4FA2988567B00CC5A2D /* druid */;
+			targetProxy = 6EFCC5162988567F00CC5A2D /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		6EFCC51D2988567F00CC5A2D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		6EFCC51E2988567F00CC5A2D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		6EFCC5202988567F00CC5A2D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"druid/Preview Content\"";
+				DEVELOPMENT_TEAM = 3LLQWPRXTC;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSCameraUsageDescription = "$(PRODUCT_NAME) Need Camera Access to  Detect Object Around You";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.omniverseLab.druid;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		6EFCC5212988567F00CC5A2D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"druid/Preview Content\"";
+				DEVELOPMENT_TEAM = 3LLQWPRXTC;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSCameraUsageDescription = "$(PRODUCT_NAME) Need Camera Access to  Detect Object Around You";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.omniverseLab.druid;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		6EFCC5232988567F00CC5A2D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 3LLQWPRXTC;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.omniverseLab.druidTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/druid.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/druid";
+			};
+			name = Debug;
+		};
+		6EFCC5242988567F00CC5A2D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 3LLQWPRXTC;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.omniverseLab.druidTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/druid.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/druid";
+			};
+			name = Release;
+		};
+		6EFCC5262988567F00CC5A2D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 3LLQWPRXTC;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.omniverseLab.druidUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = druid;
+			};
+			name = Debug;
+		};
+		6EFCC5272988567F00CC5A2D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 3LLQWPRXTC;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.omniverseLab.druidUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = druid;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		6EFCC4F62988567B00CC5A2D /* Build configuration list for PBXProject "druid" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6EFCC51D2988567F00CC5A2D /* Debug */,
+				6EFCC51E2988567F00CC5A2D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6EFCC51F2988567F00CC5A2D /* Build configuration list for PBXNativeTarget "druid" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6EFCC5202988567F00CC5A2D /* Debug */,
+				6EFCC5212988567F00CC5A2D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6EFCC5222988567F00CC5A2D /* Build configuration list for PBXNativeTarget "druidTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6EFCC5232988567F00CC5A2D /* Debug */,
+				6EFCC5242988567F00CC5A2D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6EFCC5252988567F00CC5A2D /* Build configuration list for PBXNativeTarget "druidUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6EFCC5262988567F00CC5A2D /* Debug */,
+				6EFCC5272988567F00CC5A2D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 6EFCC4F32988567B00CC5A2D /* Project object */;
+}
